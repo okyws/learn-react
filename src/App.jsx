@@ -5,6 +5,7 @@ import Card from './components/Card';
 const App = () => {
   const type = 'button';
   const onClick = () => console.log('Register');
+
   return (
     <div className='bg-slate-100 text-slate-800 tracking-tight antialiased flex items-center justify-center min-h-screen'>
       <div className='max-w-screen-xl w-full flex gap-4'>
